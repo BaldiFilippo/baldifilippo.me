@@ -12,7 +12,6 @@ or addresses a specific user need, enhancing the waking experience.'
 
 import Image from 'next/image'
 
-
 For the university project in “Human-Computer Interaction,”
 the task involves developing an alarm clock with added value,
 incorporating a unique feature that addresses an additional user need beyond
@@ -27,23 +26,25 @@ We chose to address the problem of morning dehydration. Research shows that a si
 percentage of people wake up dehydrated, experiencing symptoms like fatigue, difficulty concentrating
 and muscle cramps.
 
+To tackle this issue, the project proposes an innovative alarm clock integrated into a wooden coaster.
+In the morning, when the alarm starts ringing, the user must lift the glass from the base to silence it.
+A sensor inside the base detects the movement and turns off the alarm. This interaction encourages the user
+to drink water as part of their morning routine, promoting healthy hydration habits from the very start of the day.
+
+<div className='flex justify-center my-10 '>
+
+<Image src="/images/alarm.png" alt="alarm picture" width={1000} height={500} />
+
+</div>
 #### The target audience
 
 The project’s target audience includes individuals who want to start their
 day with a healthy habit. The device encourages drinking water first thing
 in the morning, integrating rehydration into their routine in a simple and natural way.
 
-![Target Audience](https://www.collinsdictionary.com/images/full/apple_158989157.jpg)
-
-<img
-  src="https://www.collinsdictionary.com/images/full/apple_158989157.jpg"
-  alt="Target Audience"
-
-/>
-
 #### Interactions
 
-The project includes several simple interactions between the user and the device:
+The project includes simple interactions between the user and the device:
 
 - Alarm and LED: When the alarm sounds, a white LED lights up, indicating the glass’s
   location to help users find it easily, even in the dark.
@@ -51,6 +52,15 @@ The project includes several simple interactions between the user and the device
   from white to green, visually confirming that the action was successful.
 - Audio Feedback: A brief sound confirms that the alarm has been turned off,
   providing immediate feedback on the interaction.
+
+<div className="flex justify-center my-10  ">
+  <Image
+    src="/images/interactions.svg"
+    alt="alarm picture"
+    width={700}
+    height={700}
+  />
+</div>
 
 #### App design
 
